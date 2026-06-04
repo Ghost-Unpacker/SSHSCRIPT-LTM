@@ -13,4 +13,4 @@ Script avanzado de gestión, optimización y despliegue de servicios multi-proto
 Ejecuta el siguiente comando en tu terminal como usuario `root` para descargar e iniciar el panel de control:
 
 ```bash
-wget -q -O /usr/local/bin/menu "[https://raw.githubusercontent.com/Ghost-Unpacker/SSHSCRIPT-LTM/refs/heads/main/sshscript-ltm.sh](https://raw.githubusercontent.com/Ghost-Unpacker/SSHSCRIPT-LTM/refs/heads/main/sshscript-ltm.sh)" && chmod +x /usr/local/bin/menu && menu
+sudo wget -q -O /usr/local/bin/menu "https://raw.githubusercontent.com/Ghost-Unpacker/SSHSCRIPT-LTM/refs/heads/main/sshscript-ltm.sh" && sudo chmod +x /usr/local/bin/menu && sudo menu
